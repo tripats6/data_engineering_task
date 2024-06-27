@@ -15,6 +15,7 @@
 - Partition the data by `createdAt` for efficient querying.
 - Catalog the S3 data in AWS Glue Data Catalog for easier querying with Athena.
 
+# Solution Notes
 
 # Data Pipeline with AWS Services
 
@@ -89,6 +90,13 @@ This repository demonstrates the implementation of a data pipeline using various
    - The transformed and enhanced data is stored in an S3 bucket.
    - The data is partitioned by the `createdAt` column to optimize query performance and data organization.
    - A Glue Crawler is run on the S3 data to catalog it, making it accessible for querying and analysis using services like AWS Athena.
+  
+![image](https://github.com/tripats6/data_engineering_task/assets/168261501/7f491ca7-175c-422c-b21e-9f57dd1b95da)
+
+## Glue Workflow
+
+![image](https://github.com/tripats6/data_engineering_task/assets/168261501/a1662702-c2a9-40fc-8b58-643c746ac205)
+
 
 ## Contributing
 
